@@ -1,5 +1,5 @@
 # So here's the functionality:
-  - Stores the file path, even after closing the file - 'string filePath' var.
+  - Stores the file path - 'string filePath' var.
   - Get the current file path - 'getpath()' func.
   - Open the file with storing the file path into 'filaPath' var. It is overloaded for 'char*' and 'string&' paths - 'open()' func.
   - Reopen the file and store the new file path value to filePath - custom overloaded 'open()' func for 'char*' and 'string&' paths.
