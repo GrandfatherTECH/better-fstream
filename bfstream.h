@@ -1,7 +1,7 @@
 #pragma once
 #ifndef BFSTREAM_H
 #define BFSTREAM_H
-#endif // !BFSTREAM_H
+
 
 #include <fstream>
 #include <iostream>
@@ -24,4 +24,4 @@ public:
 	void clear();
 	void close();
 };
-
+#endif // !BFSTREAM_H
